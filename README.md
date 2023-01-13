@@ -2,6 +2,28 @@
 
 Repositório criado para facilitar a configuração do terminal no linux.
 
+# Como usar?
+
+1.  Clone o repositório por meio do comando:
+
+        ```
+        git clone https://github.com/DevShy/configuration-terminal.git
+        ```
+
+2.  Dentro da pasta do repositório que você clonou, execute o comando:
+
+    ```
+    chmod +x configuration_terminal.sh
+    ```
+
+    Este comando serve para darmos permissão de execução para o nosso script.
+
+3.  Por fim, basta executar:
+
+    ```
+    ./configuration_terminal.sh
+    ```
+
 # Importante
 
 Apesar do script efetuar o download de tudo que é necessário, para ativar é necessário que você manualmente adicione algumas coisas ao seu arquivo .zshrc que será criado após a instalação do ohmyzsh.
@@ -19,7 +41,8 @@ Após o download do plugin fast-syntax-highlight, é necessário adicionar a seg
 
 Após o download do plugin Zsh-autosuggestions, é necessário adicionar a seguinte linha dentro do seu arquivo .zshrc:
 
-```plugins=(
+```
+plugins=(
     # other plugins...
     zsh-autosuggestions
 )
